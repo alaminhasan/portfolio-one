@@ -1,0 +1,140 @@
+*{margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container_full{
+    width: 100%;
+}
+.container{
+    margin: 0 auto;
+    width: 960px;
+}
+.header{
+    height: 100vh;
+    text-align: center;
+}
+.header_bg{
+    background-image: url(images/picture2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.black_overlay{
+    background-color: rgba(0, 0, 0, .60);
+}
+.navbar{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul li{
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: #FDFDFD;
+    
+    font-size: 20px;
+}
+.navbar ul li a:hover{
+    color:brown;
+}
+.header_content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+}
+.header_content img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px solid #142636
+}
+.header_content h1{
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+.header_content p{
+    font-size: 25px;
+}
+.walker-text{
+    color: #E65F78
+}
+.about_me_upper_text{
+    
+    margin: 100px 0px;
+}
+.about_me_upper_text h1{
+    color: black;
+    font-weight: bolder;
+}
+.about_me_upper_text h2{
+    color: #E65F78;
+    font-size:18px ;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.about_me_content{
+    display: flex;
+    gap: 50px;
+}
+.about_me_photo{
+    width: 40%;
+}
+.about_me_photo img{
+    width: 400px;
+}
+.about_me_content_right h2{
+    margin-bottom: 30px;
+}
+.about_me_content_right p{
+    line-height: 2.0;
+}
+button{
+    width: 180px;
+    height: 45px;
+    background: #E65F78;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.item_container{
+    display: flex;
+    gap: 50px;
+    margin-top: 80px;
+    text-transform: none;
+    font-family: roboto;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 50px;
+    width: 29%;
+    
+}
+.box i{
+    font-size: 50px;
+    color: #E65F78;
+}
+.box h2{
+    color: black;
+   
+}
+.box p{
+    line-height: 1.5;
+    font-size: 18px;
+    color: #686868;
+}
